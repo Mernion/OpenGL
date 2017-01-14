@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{21F041BF-2B0F-4169-BE56-6E1CAAA14F76}</ProjectGuid>
+    <ProjectGuid>{5BBF57F1-7D16-477B-B199-14246F139108}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Lesson2ShaderHelper</RootNamespace>
+    <RootNamespace>Lesson3Ex3TriangleShaderVariables</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Helper Headers</ProjectName>
+    <ProjectName>Lesson2 Ex 3 Triangle Shader Variables</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,7 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Shader.h" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragmentShader.txt" />
+    <Text Include="vertexShader.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

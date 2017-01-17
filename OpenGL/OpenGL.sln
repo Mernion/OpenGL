@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson3 Ex3 Textures Blend 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson4 Ex1 Transformations", "Lesson4 Ex1 Transformations\Lesson4 Ex1 Transformations.vcxproj", "{ACBBF0F9-F077-4E88-9D84-7EDB4BEA75F5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson4 Ex2 Transform Two Figures", "Lesson4 Ex2 Transform Two Figures\Lesson4 Ex2 Transform Two Figures.vcxproj", "{6C676B43-08E2-42B0-B441-F6A21AB24498}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{ACBBF0F9-F077-4E88-9D84-7EDB4BEA75F5}.Release|x64.Build.0 = Release|x64
 		{ACBBF0F9-F077-4E88-9D84-7EDB4BEA75F5}.Release|x86.ActiveCfg = Release|Win32
 		{ACBBF0F9-F077-4E88-9D84-7EDB4BEA75F5}.Release|x86.Build.0 = Release|Win32
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Debug|x64.ActiveCfg = Debug|x64
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Debug|x64.Build.0 = Debug|x64
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Debug|x86.Build.0 = Debug|Win32
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Release|x64.ActiveCfg = Release|x64
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Release|x64.Build.0 = Release|x64
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Release|x86.ActiveCfg = Release|Win32
+		{6C676B43-08E2-42B0-B441-F6A21AB24498}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

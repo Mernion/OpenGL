@@ -127,7 +127,7 @@ int main()
 
 	glBindVertexArray(0); // Unbind VAO
 
-	// Load and create a texture 
+						  // Load and create a texture 
 	GLuint textureContainer, textureSmile;
 	PrepareTexture(textureContainer, "container.jpg", GL_RGB, GL_REPEAT);
 	PrepareTexture(textureSmile, "awesomeface.jpg", GL_RGB, GL_CLAMP_TO_EDGE);
@@ -146,7 +146,7 @@ int main()
 		// transformation stuff
 		glm::mat4 trans;
 		trans = glm::translate(trans, glm::vec3(0.5f, -0.5f, 0.0f));
-		trans = glm::rotate(trans, (glm::radians((GLfloat) glfwGetTime() * 50.0f)), glm::vec3(0.0f, 0.0f, 1.0f));
+		trans = glm::rotate(trans, (glm::radians((GLfloat)glfwGetTime() * 50.0f)), glm::vec3(0.0f, 0.0f, 1.0f));
 
 		// Bind Texture
 		glActiveTexture(GL_TEXTURE0);
@@ -163,6 +163,14 @@ int main()
 		// Draw container
 		glBindVertexArray(VAO);
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+		trans = glm::mat4();
+		trans = glm::translate(trans, glm::vec3(-0.5f, 0.5f, 0.0f));
+		GLfloat scale = glm::sin(glfwGetTime());
+		trans = glm::scale(trans, glm::vec3(scale, scale, 0.0f));
+		glUniformMatrix4fv(glGetUniformLocation(ourShader.Program, "transform"), 1, GL_FALSE, glm::value_ptr(trans));
+		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
 		glBindVertexArray(0);
 
 		// Swap the screen buffers

@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson4 Ex2 Transform Two F
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson5 Ex1 Coordinate System", "Lesson5 Ex1 Coordinate System\Lesson5 Ex1 Coordinate System.vcxproj", "{F77C21C1-A661-4C31-BB98-8DA9BE8DCE2C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson6 Ex1 Camera", "Lesson6 Ex1 Camera\Lesson6 Ex1 Camera.vcxproj", "{D42E77BE-884B-4925-8A55-E50A2D6FA332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{F77C21C1-A661-4C31-BB98-8DA9BE8DCE2C}.Release|x64.Build.0 = Release|x64
 		{F77C21C1-A661-4C31-BB98-8DA9BE8DCE2C}.Release|x86.ActiveCfg = Release|Win32
 		{F77C21C1-A661-4C31-BB98-8DA9BE8DCE2C}.Release|x86.Build.0 = Release|Win32
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Debug|x64.ActiveCfg = Debug|x64
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Debug|x64.Build.0 = Debug|x64
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Debug|x86.ActiveCfg = Debug|Win32
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Debug|x86.Build.0 = Debug|Win32
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Release|x64.ActiveCfg = Release|x64
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Release|x64.Build.0 = Release|x64
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Release|x86.ActiveCfg = Release|Win32
+		{D42E77BE-884B-4925-8A55-E50A2D6FA332}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

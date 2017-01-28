@@ -31,3 +31,10 @@ HEADERS  += mainwindow.h \
     SimpleRender.h
 
 FORMS    += mainwindow.ui
+
+DISTFILES += \
+    vertexshader.txt \
+    fragmentshader.frag
+
+RESOURCES += \
+    resources.qrc
